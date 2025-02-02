@@ -24,9 +24,8 @@ This project builds an end-to-end ETL pipeline for an OTT platform  using **Micr
 
 ---
 
-## 📂 Datasets {`data/`}.  
+## 📂 Datasets {data/}.  
  **Dataset fields** 
-Dataset Fields:
 
 - **id**: Unique identifier for each movie. (int)
 
@@ -76,7 +75,7 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
 2. Configure **OneLake-Lakehouse** for data storage.
 3. Set up **Power BI Gateway** for on-prem file access.
 4. Deploy **Data Factory** pipeline (`data-ingestion/ingest_pipeline.json`).
-5. Create **Warehouse Schema** using `warehouse/schema.sql`.
+5. Create **Warehouse Schema** using [schema.sql](warehouse/schema.sql).
 6. Deploy **Power BI Dashboard** from `reporting/powerbi_dashboard.pbix`.
 
 ---
