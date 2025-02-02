@@ -75,7 +75,7 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
 1. Set up **Microsoft Fabric** workspace.
 2. Configure **OneLake-Lakehouse** for data storage.
 3. Set up **Power BI Gateway** for on-prem file access.
-4. Deploy **Data Factory** [pipeline] (data-ingestion/data_factory_pipeline.json).
+4. Deploy **Data Factory** [pipeline](data-ingestion/data_factory_pipeline.json).
 5. Create **Warehouse Schema** using [schema.sql](warehouse/schema.sql).
 6. Deploy **Power BI Dashboard** from `reporting/powerbi_dashboard.pbix`.
 
@@ -91,7 +91,7 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
    - **MERGE** for Dimension Tables.
    - **APPEND** for the Fact Table.
    
-[pipeline] (data-ingestion/data_factory_pipeline.json).
+[pipeline](data-ingestion/data_factory_pipeline.json).
 
 ---
 
