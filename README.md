@@ -24,7 +24,7 @@ This project builds an end-to-end ETL pipeline for an OTT platform  using **Micr
 
 ---
 
-## 📂 Datasets {data/}.  
+## 📂 Datasets   
  **Dataset fields** 
 
 - **id**: Unique identifier for each movie. (int)
@@ -59,6 +59,7 @@ This project builds an end-to-end ETL pipeline for an OTT platform  using **Micr
 
 - **spoken_languages**: List of languages spoken in the movie. (str)
 
+[Sample data](data/).
 Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies?resource=download).
 
 ---
@@ -86,7 +87,7 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
    - **If Condition** checks if file’s date matches the current date.
    - **Copy Activity** loads the matching file into **Lakehouse (Silver Layer)**.
 3. **Notebook Activity** transforms data using **PySpark**.
-4. **Stored Procedure Activity** runs: `warehouse/Stored_Procedure_for_Daily_Updates.sql`.
+4. **Stored Procedure Activity** runs: [Stored_Procedure](warehouse/Stored_Procedure_for_Daily_Updates.sql).
    - **MERGE** for Dimension Tables.
    - **APPEND** for the Fact Table.
 
