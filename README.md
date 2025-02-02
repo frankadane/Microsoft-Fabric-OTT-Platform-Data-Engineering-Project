@@ -1,7 +1,7 @@
-# 🎬 OTT Platform Data Engineering Project using Microsoft Fabric
+# 🎬 OTT Platform Data Engineering Project using Microsoft Fabric (Movie Datasets)
 
 ## 📌 Project Overview
-This project builds an end-to-end ETL pipeline for an OTT platform (movie datasets) using **Microsoft Fabric**. The goal is to ingest on-premise data, transform it, and load it into a structured format for reporting and analysis in **Power BI**.
+This project builds an end-to-end ETL pipeline for an OTT platform  using **Microsoft Fabric**. The goal is to ingest on-premise data, transform it, and load it into a structured format for reporting and analysis in **Power BI**.
 
 ## 🚀 Technologies Used
 - **Microsoft Fabric** (OneLake, Data Factory, Warehouse, Notebooks)
@@ -20,7 +20,7 @@ This project builds an end-to-end ETL pipeline for an OTT platform (movie datase
 4. **Warehouse & Modeling**: Load structured data into **Fabric Warehouse** and create a **Star Schema**.
 5. **Reporting**: Use **Power BI** to visualize and analyze trends in OTT platform performance.
 
-![Project Architecture](docs/architecture_diagram.png)
+![Project Architecture](docs/project_architecture.jpg)
 
 ---
 
@@ -105,5 +105,5 @@ MIT License
 
 ### 🔗 Connect with Me
 📧 Email: astero2gk@gmail.com
-🔗 LinkedIn: [Your Profile](https://www.linkedin.com/in/frank-adane-b927455)  
-🚀 GitHub: [Your GitHub](https://github.com/frankadane)
+🔗 LinkedIn: [Profile](https://www.linkedin.com/in/frank-adane-b927455)  
+🚀 GitHub: [GitHub](https://github.com/frankadane)
