@@ -75,7 +75,7 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
 1. Set up **Microsoft Fabric** workspace.
 2. Configure **OneLake-Lakehouse** for data storage.
 3. Set up **Power BI Gateway** for on-prem file access.
-4. Deploy **Data Factory** pipeline (`data-ingestion/ingest_pipeline.json`).
+4. Deploy **Data Factory** [pipeline] (data-ingestion/data_factory_pipeline.json).
 5. Create **Warehouse Schema** using [schema.sql](warehouse/schema.sql).
 6. Deploy **Power BI Dashboard** from `reporting/powerbi_dashboard.pbix`.
 
@@ -86,10 +86,12 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
 2. **ForEach Loop** processes each file:
    - **If Condition** checks if file’s date matches the current date.
    - **Copy Activity** loads the matching file into **Lakehouse (Silver Layer)**.
-3. **Notebook Activity** transforms data using **PySpark**.
+3. **Notebook Activity** transforms data using **PySpark**. [transformation](transformation/Movie_rating_Silver_Notebook.ipynb).
 4. **Stored Procedure Activity** runs: [Stored_Procedure](warehouse/Stored_Procedure_for_Daily_Updates.sql).
    - **MERGE** for Dimension Tables.
    - **APPEND** for the Fact Table.
+   
+[pipeline] (data-ingestion/data_factory_pipeline.json).
 
 ---
 
