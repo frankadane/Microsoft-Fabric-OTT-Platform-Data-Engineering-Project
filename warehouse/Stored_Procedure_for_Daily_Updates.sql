@@ -2,7 +2,6 @@
 CREATE PROCEDURE Movies.Update_Dimensions_And_Fact_Table
 AS
 BEGIN
-    SET NOCOUNT ON;
 
     -- Update Date Dimension
     INSERT INTO Movies.Date_Dimension (full_date, year, month, day, day_name, month_name, quarter)
