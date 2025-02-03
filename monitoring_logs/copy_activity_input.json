@@ -1,0 +1,54 @@
+{
+    "source": {
+        "type": "BinarySource",
+        "storeSettings": {
+            "type": "FileServerReadSettings",
+            "recursive": true
+        },
+        "formatSettings": {
+            "type": "BinaryReadSettings"
+        },
+        "datasetSettings": {
+            "annotations": [],
+            "type": "Binary",
+            "typeProperties": {
+                "location": {
+                    "type": "FileServerLocation",
+                    "fileName": "2025-01-29 120514.csv"
+                }
+            },
+            "externalReferences": {
+                "connection": "f3978424-fea8-4f40-b225-ef27e7e39ad4"
+            }
+        }
+    },
+    "sink": {
+        "type": "BinarySink",
+        "storeSettings": {
+            "type": "LakehouseWriteSettings"
+        },
+        "datasetSettings": {
+            "annotations": [],
+            "linkedService": {
+                "name": "LH_Earthquake",
+                "properties": {
+                    "annotations": [],
+                    "type": "Lakehouse",
+                    "typeProperties": {
+                        "workspaceId": "dd4e4e02-925b-4769-9c27-f6784f8f60b3",
+                        "artifactId": "afc11570-f375-4319-95ea-ded6baa480a8",
+                        "rootFolder": "Files"
+                    }
+                }
+            },
+            "type": "Binary",
+            "typeProperties": {
+                "location": {
+                    "type": "LakehouseLocation",
+                    "folderPath": "ott/2025-01-29"
+                }
+            }
+        }
+    },
+    "enableStaging": false
+}

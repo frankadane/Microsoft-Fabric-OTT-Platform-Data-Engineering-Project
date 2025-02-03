@@ -36,3 +36,8 @@ CREATE TABLE Movies.Movie_Rating_Fact (
     imdb_category VARCHAR(250),
     AddedDate DATE
 );
+
+
+----View on Lakehouse table which contains transform data
+CREATE VIEW Movies.staging_movies_rating AS
+SELECT * from LH_Earthquake.dbo.move_rating_silver;

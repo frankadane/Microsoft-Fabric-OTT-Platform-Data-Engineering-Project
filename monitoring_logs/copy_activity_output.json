@@ -1,0 +1,57 @@
+{
+	"dataRead": 4511,
+	"dataWritten": 4511,
+	"filesRead": 1,
+	"filesWritten": 1,
+	"sourcePeakConnections": 1,
+	"sinkPeakConnections": 1,
+	"copyDuration": 9,
+	"throughput": 1.128,
+	"errors": [],
+	"usedParallelCopies": 1,
+	"executionDetails": [
+		{
+			"source": {
+				"type": "FileServer"
+			},
+			"sink": {
+				"type": "Lakehouse"
+			},
+			"status": "Succeeded",
+			"start": "1/29/2025, 7:52:02 PM",
+			"duration": 9,
+			"usedParallelCopies": 1,
+			"profile": {
+				"queue": {
+					"status": "Completed",
+					"duration": 0
+				},
+				"transfer": {
+					"status": "Completed",
+					"duration": 4,
+					"details": {
+						"listingSource": {
+							"type": "FileServer",
+							"workingDuration": 0
+						},
+						"readingFromSource": {
+							"type": "FileServer",
+							"workingDuration": 0
+						},
+						"writingToSink": {
+							"type": "Lakehouse",
+							"workingDuration": 3
+						}
+					}
+				}
+			},
+			"detailedDurations": {
+				"queuingDuration": 0,
+				"transferDuration": 4
+			}
+		}
+	],
+	"dataConsistencyVerification": {
+		"VerificationResult": "NotVerified"
+	}
+}

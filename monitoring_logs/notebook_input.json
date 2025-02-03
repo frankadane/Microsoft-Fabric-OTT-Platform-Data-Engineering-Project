@@ -1,0 +1,10 @@
+{
+    "notebookId": "75b0f997-203f-4574-becd-8c0be95610c6",
+    "workspaceId": "dd4e4e02-925b-4769-9c27-f6784f8f60b3",
+    "parameters": {
+        "start_date": {
+            "value": "2025-01-29",
+            "type": "string"
+        }
+    }
+}
