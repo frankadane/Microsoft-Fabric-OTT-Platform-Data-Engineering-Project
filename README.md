@@ -93,6 +93,8 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
    
 [pipeline](data-ingestion/data_factory_pipeline.json).
 
+![Pipeline flow](pipeline/pipeline_diagram.png)
+
 ---
 
 ## 📊 Power BI Dashboards
@@ -113,10 +115,10 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
 
 ---
 
-## 🔍 Monitoring & Alerts
-- **Fabric Data Factory Monitoring** for pipeline execution.
-- **Power BI Alerts** for report updates.
+## 🔍 Monitoring 
+- **Fabric Data Factory Monitoring** for pipeline execution. [activity run input and output logs](monitoring_logs/)
 
+![activity run](monitoring_logs/Monitory-Activity run.png)
 
 ---
 
