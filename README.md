@@ -100,25 +100,18 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
 ## 📊 Power BI Dashboards
 ### 📌 Reports Built:
 1. **Top-Performing Genres** 🎭
-   - Uses **Movie Rating Fact Table** and **Movie Catalog Dimension**.
-   - Aggregates **vote_count** and **popularity**.
-   - Displayed as a **bar chart**.
 
 2. **Trends in Movie Viewership** 📈
-   - Uses **Date Dimension** and **Movie Rating Fact Table**.
-   - Tracks **popularity & view counts** over time.
-   - Shown as a **line chart**.
 
 3. **User Engagement Insights** 👥
-   - Analyzes **runtime categories** and their impact.
-   - Uses a **heatmap & scatter plot**.
+
 
 ---
 
 ## 🔍 Monitoring 
 - **Fabric Data Factory Monitoring** for pipeline execution. [activity run input and output logs](monitoring_logs/)
 
-![activity run](monitoring_logs/Monitory-Activity run.png)
+![Activity run](monitoring_logs/Monitory-Activity-run.png)
 
 ---
 
@@ -143,6 +136,8 @@ MIT License
 ---
 
 ### 🔗 Connect with Me
-📧 Email: astero2gk@gmail.com
-🔗 LinkedIn: [Profile](https://www.linkedin.com/in/frank-adane-b927455)  
+📧 Email: astero2gk@gmail.com      
+🔗 LinkedIn: [Profile](https://www.linkedin.com/in/frank-adane-b927455)     
 🚀 GitHub: [GitHub](https://github.com/frankadane)
+
+
