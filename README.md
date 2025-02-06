@@ -59,7 +59,7 @@ This project builds an end-to-end ETL pipeline for an OTT platform  using **Micr
 
 - **spoken_languages**: List of languages spoken in the movie. (str)
 
-[Sample data](data/).    
+Data [Sample data](data/).    
 Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies?resource=download).
 
 ---
@@ -91,10 +91,11 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
    - **MERGE** for Dimension Tables.
    - **APPEND** for the Fact Table.
    
-[pipeline](data-ingestion/data_factory_pipeline.json).
+Pipeline json file [pipeline](data-ingestion/data_factory_pipeline.json).
 
 ![Pipeline flow](pipeline/pipeline_diagram.png)
 
+ ---
  
  **Warehouse Schema and Semantic model**    
 ![Warehouse](warehouse/semantic_model.png)  
