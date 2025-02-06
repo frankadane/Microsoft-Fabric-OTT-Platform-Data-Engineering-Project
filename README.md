@@ -77,7 +77,7 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
 3. Set up **Power BI Gateway** for on-prem file access.
 4. Deploy **Data Factory** [pipeline](data-ingestion/data_factory_pipeline.json).
 5. Create **Warehouse Schema** using [schema.sql](warehouse/schema.sql).
-6. Deploy **Power BI Dashboard** from `reporting/powerbi_dashboard.pbix`.
+6. Deploy **Power BI Dashboard** from [reporting](reporting/Movies Report.pptx).
 
 ---
 
@@ -95,6 +95,10 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
 
 ![Pipeline flow](pipeline/pipeline_diagram.png)
 
+ 
+ **Warehouse Schema and Semantic model**    
+![Warehouse](warehouse/semantic_model.png)  
+
 ---
 
 ## 📊 Power BI Dashboards
@@ -104,6 +108,8 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
 2. **Trends in Movie Viewership** 📈
 
 3. **User Engagement Insights** 👥
+
+![Top-Performing Genres](reporting/Report_analysis.PNG)
 
 
 ---
@@ -119,14 +125,6 @@ Data Source: [TMDB Movies Dataset (2023)](https://www.kaggle.com/datasets/asanic
 - **Real-time Streaming** for live user activity tracking.
 - **AI-Based Recommendations** using machine learning in Fabric.
 - **Integration with Dataverse** for deeper insights.
-
----
-
-## 🤝 Contributing
-1. Fork this repo & clone locally.
-2. Create a feature branch (`feature-new-component`).
-3. Commit changes and push.
-4. Open a pull request.
 
 ---
 
